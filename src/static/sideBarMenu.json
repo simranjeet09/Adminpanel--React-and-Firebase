@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Dashboard",
+        "subMenus": [
+            {
+                "title": "Dashboard",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/dashboard"
+            },
+            {
+                "title": "Users",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/users"
+            },
+            {
+                "title": "Weather",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/weather"
+            },
+            {
+                "title": "News",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/news"
+            },
+            {
+                "title": "Stock",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/stock"
+            },
+            {
+                "title": "Logout",
+                "icons": "/assets/icons/logout.svg",
+                "redirectUrl": "/"
+            }
+        ]
+    }
+]
