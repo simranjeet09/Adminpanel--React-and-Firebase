@@ -6,6 +6,8 @@ import NotFoundPage from './../pages/NotFoundPage/index.js';
 import LoginPage from '../pages/LoginPage/Login';
 import SignUpPage from '../pages/SignUpPage/index.js';
 import AuthProvider from './../providers/AuthProvider';
+import TodoForm from '../pages/todo/TodoForm';
+import TodoApp from '../pages/todo';
 // Every Route and component does require either Private or Public Route creation.
 
 const Navigation = () => {
@@ -23,6 +25,8 @@ const Navigation = () => {
                         component={HomePage}
                     />
                     <Route exact path="/overview/users" component={HomePage} />
+                    <Route exact path="/overview/todo" component={HomePage} />
+
                     <Route
                         exact
                         path="/overview/weather"

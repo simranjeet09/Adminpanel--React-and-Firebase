@@ -15,6 +15,7 @@ import NewsPage from './NewsPage';
 import StockPage from './StockPage';
 import UsersPage from './UsersPage';
 import useWindowsPathname from './../components/WindowPathname';
+import TodoApp from './todo';
 
 const drawerWidth = 270;
 
@@ -136,6 +137,8 @@ const HomePage = (props) => {
                                 return <NewsPage />;
                             case '/overview/stock':
                                 return <StockPage />;
+                            case '/overview/todo':
+                                return <TodoApp />;
                             default:
                                 return <Dashboard />;
                         }

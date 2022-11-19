@@ -335,7 +335,7 @@ const SignUpPage = () => {
                                     to="/"
                                     className="cursor-pointer margin-t-10 text-primary"
                                 >
-                                    Click here to Sign Up !
+                                    Click here to Sign In !
                                 </Link>
                             </div>
                         </div>

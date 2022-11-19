@@ -28,6 +28,11 @@
                 "redirectUrl": "/overview/stock"
             },
             {
+                "title": "Todo",
+                "icons": "/assets/icons/dashboard.svg",
+                "redirectUrl": "/overview/todo"
+            },
+            {
                 "title": "Logout",
                 "icons": "/assets/icons/logout.svg",
                 "redirectUrl": "/"
